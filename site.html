@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>hsin Studio</title>
+
+	<!-- Bootstrap CSS -->
+	<!-- Latest compiled and minified CSS --><!-- 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Optional theme -->
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+<style>
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+body{
+	width: 100%;
+	height: 3000px;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+.area{
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	margin:0 auto ;
+	padding:0;
+	max-width: 1840px ;
+}
+
+.cover{
+	background: url(images/10580676_920666614613781_7967137338985033175_o.jpg) 50% 0 no-repeat fixed;
+}
+#area2{
+	background: url(images/10520575_920667521280357_8108023463923544032_o.jpg) 50% 0 no-repeat fixed;
+}
+#area3{
+	background: url(images/10547805_920667701280339_8423363183775599284_o.jpg) 50% 0 no-repeat fixed;
+}
+#area4{
+	background: url(images/10514368_920666771280432_7791753988236450304_o.jpg) 50% 50% no-repeat fixed;
+}
+#area5{
+	background: #eee;
+	height: 500px;
+}
+
+nav .menu{
+	position: fixed;
+	top: 5%;
+	right: 5%;
+	background-color: rgba(200, 200, 200, 0.85);
+	z-index: 10;
+}
+
+nav .menu li{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	width: 100px;
+	margin: 10px 0 10px 0;
+}
+
+nav .menu li a{
+	color: #333;
+}
+
+.cover{
+	clear: both;
+}
+
+.video{
+/*	width: 1562px;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;*/
+	border: 1px solid #f00;
+}
+
+.video .row{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.audio .row{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#playlist{
+	width: 400px;
+	background-color: rgba(128, 128, 128, 0.5);
+}
+
+.top{
+	width: 20px;
+	height: 20px;
+	background-color: rgba(200, 200, 200, 0.7);
+	position: fixed;
+	right: 50%;
+	bottom: 5%;
+}
+
+</style>
+</head>
+<body>
+	
+	<div id="main" class="wrapper">
+		<div class="header">
+			<nav>
+				<ul class="menu">
+					<li ><a href="#area2">VIDEO</a></li>
+					<li ><a href="#area3">AUDIO</a></li>
+					<li ><a href="#area4">ABOUT</a></li>
+					<li ><a href="#area5">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+		<section id="area1" class="cover area"></section>
+		<section id="area2" class="area">
+			<div class="video">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<img src="https://api.fnkr.net/testimg/480x270/00CED1/FFF/?text=img+placeholder">
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<img src="https://api.fnkr.net/testimg/480x270/00CED1/FFF/?text=img+placeholder">
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<img src="https://api.fnkr.net/testimg/480x270/00CED1/FFF/?text=img+placeholder">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<img src="https://api.fnkr.net/testimg/480x270/00CED1/FFF/?text=img+placeholder">
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<img src="https://api.fnkr.net/testimg/480x270/00CED1/FFF/?text=img+placeholder">
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<img src="https://api.fnkr.net/testimg/480x270/00CED1/FFF/?text=img+placeholder">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="area3" class="area">
+			<div class="audio">
+				<div class="row">
+					<div class="col-xs-12 col-sm-7"></div>
+					<div id="playlist" class="col-xs-12 col-sm-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate maxime reprehenderit vitae, sit. Enim voluptatem dolor odit, reprehenderit ratione nihil illum dolorum alias corporis eum rem cumque nulla facilis, ullam culpa, molestiae quia earum, iste fuga aut. Repellat pariatur, perferendis minus minima eos. Quisquam tenetur sequi ea cupiditate doloremque libero, totam provident sapiente eaque nemo! Aliquam possimus laborum, blanditiis consectetur fugit vero atque ipsa, perferendis sequi dignissimos, quam tempore eos quia. Unde soluta magni aut earum eum beatae error, quas adipisci, culpa quaerat alias asperiores maxime perspiciatis at, est molestiae cupiditate blanditiis quia omnis! Fuga ratione dignissimos quibusdam eius libero iusto facilis distinctio, fugiat quasi eum provident accusamus velit quod, quas blanditiis dolorem, aliquid ducimus debitis? Doloremque, dicta, libero possimus consequatur asperiores neque. Velit asperiores, laudantium debitis vel quisquam temporibus dignissimos vitae aliquid tempore placeat id laborum totam fuga rem mollitia itaque incidunt ad et voluptates quia doloribus, earum. Non magnam labore ipsa laborum maxime dolorem quos eius odio, minima voluptas sapiente enim ex et, aliquid numquam officiis aperiam harum molestias consequuntur dicta impedit. Sunt ipsum dolorum temporibus tenetur doloremque illo sequi explicabo enim aliquam perferendis impedit earum, voluptates magni pariatur perspiciatis optio repellendus neque! Officiis ab ea harum qui!</div>
+					<div class="col-xs-12 col-sm-2"></div>
+				</div>
+			</div>
+		</section>
+		<section id="area4" class="area">
+			<div class="about">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<div class="col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ipsam facilis ad suscipit architecto unde mollitia sit ducimus fuga iure molestias ab sed nesciunt ex voluptate maxime labore at, beatae accusantium, vel iusto impedit asperiores tempore, nemo deserunt! Ratione recusandae, maiores a deserunt nihil officiis nesciunt veniam aspernatur quo, maxime veritatis quae! Cupiditate doloribus tempora impedit consequatur commodi repellat obcaecati, distinctio, minus magnam mollitia facere aperiam praesentium optio aliquam, atque! Ratione nisi distinctio ipsa eaque. Nulla, obcaecati! Sequi similique quam molestias dicta provident ut culpa aut accusamus non, nisi quos temporibus, tenetur aperiam tempore vero sint natus ipsa, maxime. Sed recusandae quod fugiat molestias, facilis dolor quibusdam labore voluptates doloremque porro omnis perspiciatis animi tempore incidunt earum necessitatibus, voluptas voluptatibus, blanditiis inventore, quasi ipsam consequatur distinctio. Amet vel aliquam magni minus, inventore animi harum aliquid quaerat, dignissimos ratione, corrupti id nostrum omnis odio quisquam aperiam quas officiis, laudantium alias! Necessitatibus atque enim, voluptate quo, fugit esse blanditiis, excepturi facere quis ex officia corporis quisquam alias maxime tempora debitis eum est, asperiores. Temporibus ratione maxime vitae eaque, accusantium iste itaque ullam fuga sunt aperiam labore deleniti blanditiis incidunt nam, laudantium laborum excepturi adipisci asperiores quaerat debitis culpa optio laboriosam. Dicta, inventore!</div>
+					</div>
+					<div class="col-xs-12 col-sm-8"></div>
+				</div>
+			</div>
+		</section>
+		<section id="area5" class="area">
+			<div class="contact"></div>
+		</section>
+		<section class="top">
+				<footer><a href="#area1" class="up">top</a></footer>
+		</section>
+	</div>
+
+	<!-- jQuery -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> -->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+	<script src="script.js"></script>
+
+	<!-- Bootstrap JavaScript -->
+	<!-- Latest compiled and minified JavaScript -->
+
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+</body>
+</html>
